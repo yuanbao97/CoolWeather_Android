@@ -44,4 +44,19 @@ dependencies {
 
     //okHttp
     implementation("com.squareup.okhttp3:okhttp:4.9.0")
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    //room
+    def room_version = "2.2.6"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    //litepal
+    implementation 'org.litepal.guolindev:core:3.2.2'
 }
